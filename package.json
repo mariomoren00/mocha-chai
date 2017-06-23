@@ -1,0 +1,25 @@
+{
+  "name": "mocha-chai",
+  "version": "1.0.0",
+  "description": "How to run Mocha/Chai unit tests on Node.js apps",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariomoren00/mocha-chai.git"
+  },
+  "author": "mariomoreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariomoren00/mocha-chai/issues"
+  },
+  "homepage": "https://github.com/mariomoren00/mocha-chai#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0"
+  }
+}
