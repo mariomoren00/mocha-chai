@@ -20,5 +20,10 @@ describe('Status and content', function() {
                 expect(response.statusCode).to.equal(404);
             });
         });
+        it('content', function(){
+            request('http://localhost:8080/about', function(error, response, body) {
+              expect(body).to.equal('Hello World');
+            });
+        });
     });
 });
